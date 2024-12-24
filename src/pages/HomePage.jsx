@@ -1,25 +1,19 @@
 import React from 'react'
-import NoticeBar from '../components/NoticeBar'
-import NavBar from '../components/NavBar'
-import HeroSection from '../components/HeroSection'
-import TopCategories from '../components/TopCategories'
-import BestSelling from '../components/BestSelling'
-import CashBack from '../components/CashBack'
-import BestSellingStore from '../components/BestSellingStore'
-import Footer from '../components/Footer'
+import HeroSection from '../components/home page/HeroSection'
+import TopCategories from '../components/home page/TopCategories'
+import BestSelling from '../components/home page/BestSelling'
+import CashBack from '../components/home page/CashBack'
+import BestSellingStore from '../components/home page/BestSellingStore'
 
 const HomePage = () => {
   return (
    
       <>
-        <NoticeBar />
-        <NavBar />
         <HeroSection />
         <TopCategories />
         <BestSelling/>
         <CashBack />
         <BestSellingStore/>
-        <Footer/>
       </>
     
   )

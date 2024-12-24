@@ -9,6 +9,15 @@ export default {
       fontFamily : {
         Poppins : "'Poppins',serif",
       },
+      keyframes : {
+        "scrollerInfity" : {
+          from : {transform : "translateX(0)"},
+          to : {transform : "translateX(-100%)"}
+        }
+      },
+      animation : {
+        scrollerInfity : 'scrollerInfity 25s linear infinite'
+      }
     },
   },
   plugins: [

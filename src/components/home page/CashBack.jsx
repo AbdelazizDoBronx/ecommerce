@@ -1,5 +1,5 @@
 import React from 'react'
-import Cardimg from '../assets/card.png'
+import Cardimg from '../../assets/card.png'
 const CashBack = () => {
 
   return (
