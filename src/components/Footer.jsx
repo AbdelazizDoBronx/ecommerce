@@ -1,9 +1,8 @@
 import React from 'react'
-import PaymentsMethods from '../assets/Payments.png'
 import { Copyright, Gem, Gift, Info } from 'lucide-react'
 const Footer = () => {
   return (
-        <div className='mt-32 max-w-[1300px] mx-auto'>
+        <div className='mt-20 max-w-[1300px] mx-auto'>
             <hr />
             <div className='flex  gap-10 mt-9 font-light'>
                 <div >

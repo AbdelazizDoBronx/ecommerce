@@ -5,6 +5,7 @@ import NavBar from './components/NavBar'
 import Footer from './components/Footer'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import ProductPage from './pages/ProductPage'
+import Cart from './pages/Cart'
 
 const App = () => {
    return(
@@ -16,6 +17,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<HomePage/>}/>
             <Route path='/products' element={<ProductPage/>}/>
+            <Route path='/cart' element={<Cart/>}/>
           </Routes>
         </BrowserRouter>
         <Footer/>
