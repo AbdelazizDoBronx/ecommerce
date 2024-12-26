@@ -3,7 +3,7 @@ import React from 'react'
 
 const NoticeBar = () => {
   return (
-    <div className='bg-[#003D29] w-full h-10 flex justify-around text-sm items-center text-white'>
+    <div className='bg-[#003D29] sm:hidden md:flex   w-full h-10 flex justify-around text-sm items-center text-white'>
         <p className='flex items-center gap-2'>
             <Phone size='20px'  />
             +001234567890

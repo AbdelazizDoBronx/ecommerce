@@ -8,13 +8,13 @@ import BestSellingStore from '../components/home page/BestSellingStore'
 const HomePage = () => {
   return (
    
-      <>
+      <div className=''>
         <HeroSection />
         <TopCategories />
         <BestSelling/>
         <CashBack />
         <BestSellingStore/>
-      </>
+      </div>
     
   )
 }
